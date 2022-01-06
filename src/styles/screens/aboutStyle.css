@@ -1,0 +1,56 @@
+.continerGrid{
+    display: grid;
+    grid-template-rows: 133px 1fr 300px 10px;
+    grid-template-columns: 1fr 130px 1fr;
+    /* height: 500px; */
+    /* background-color: red; */
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.mainImg{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.content{
+    /* background-color: rgb(93, 184, 93); */
+    /* height: 133px; */
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+}
+.ourMission{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 15px;
+    
+
+}
+.ourVision{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.container1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 500px 1fr 1fr;
+    /* background-color: blue; */
+    /* height: 500px; */
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+.ourVision{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.content1{
+    /* background-color: teal; */
+}
+.logo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+    justify-self: center;
+    /* margin-left: 150px; */
+}

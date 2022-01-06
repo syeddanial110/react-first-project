@@ -1,0 +1,34 @@
+/* :txtColor{
+    --whiteColor: white;
+} */
+
+.linkBtn{
+    color: white ;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.linkBtnHome:hover{
+    color: white;
+   transform: scale(1.2);
+   
+}
+.linkBtnAbout:hover{
+    color: white;
+   transform: scale(1.2);
+   
+}
+.linkBtnServices:hover{
+    color: white;
+   transform: scale(1.2);
+   
+}
+.linkBtnContact:hover{
+    color: white;
+   transform: scale(1.2);
+   
+}
+.linkBtnBlogs:hover{
+    color: white;
+   transform: scale(1.2);
+   
+}
